@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CryptoWeather Nexus
+A modern, multi-page dashboard combining weather data, cryptocurrency information, and real-time notifications via WebSocket.
 
-## Getting Started
+# CryptoWeather Nexus Dashboard
 
-First, run the development server:
+# Features
+
+## Multi-Page Architecture
+
+Dashboard with Weather, Cryptocurrency, and News sections
+Detailed city weather pages with historical data
+Detailed cryptocurrency pages with price history.
+
+## Real-Time Data
+
+Live cryptocurrency price updates
+Weather alerts and notifications
+Real-time price change indicators.
+
+## User Preferences
+
+Favorite cities and cryptocurrencies
+Persistent storage of user preferences.
+
+## Responsive Design
+
+Mobile-first approach
+Adapts seamlessly from mobile to desktop.
+
+# Tech Stack
+Frontend Framework: Next.js 14 with App Router
+State Management: Redux with Redux Toolkit
+Styling: Tailwind CSS
+Charts: Recharts
+Notifications: React-Toastify
+API Integration: Axios
+Real-Time Updates: Simulated WebSocket.
+
+## APIs Used
+Weather Data: OpenWeatherMap API
+Cryptocurrency Data: CoinGecko API
+News Headlines: NewsData.io.
+
+# Installation and Setup
+
+## Prerequisites
+Node.js 18.18.0 or later
+```bash
+npm or yarn
+```
+## Installation Steps
+
+1. Clone the repository:
+```bash
+git clone https://github.com/vishnuu5/crypto-weather-nexus.git
+cd crypto-weather-nexus
+```
+2. Install dependencies:
+
+```bash
+npm install
+```
+3. Create a `.env.local` file in the root directory with your API keys:
+
+```bash
+NEXT_PUBLIC_OPENWEATHER_API_KEY=your_openweather_api_key
+NEXT_PUBLIC_NEWSDATA_API_KEY=your_newsdata_api_key
+```
+
+4. Start the development server;
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
