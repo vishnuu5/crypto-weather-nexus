@@ -2,7 +2,10 @@
 A modern, multi-page dashboard combining weather data, cryptocurrency information, and real-time notifications via WebSocket.
 
 # CryptoWeather Nexus Dashboard
+![Image](https://github.com/user-attachme-9218-0ca8d350a896)nts/assets/42ea59c0-2560-4840
 
+## Demo;
+Click=> [Her](https://crypto-weather-nexus-drab.vercel.app)
 # Features
 
 ## Multi-Page Architecture
